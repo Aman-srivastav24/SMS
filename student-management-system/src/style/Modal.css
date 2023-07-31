@@ -1,0 +1,29 @@
+.container{
+
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    box-shadow: 2px 3px 5px rgb(124, 119, 119);
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: rgb(255, 145, 0);
+}
+.container:hover{
+    background-color:rgb(255, 145, 0);
+    font-size: 28px;
+    width: 202px;
+    cursor: pointer;
+    height: 202px;
+}
+.modal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
